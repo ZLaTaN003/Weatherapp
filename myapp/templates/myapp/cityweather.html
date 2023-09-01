@@ -1,0 +1,9 @@
+{% if weather_data %}
+<h1 style="color: blue;">{{ weather_data.city }}</h1>
+<h2 style="font-size: 24px;">{{ weather_data.temp }}°C</h2>
+<p style="font-style: italic;">{{ weather_data.desc }}</p>
+<img src="http://openweathermap.org/img/w/{{ weather_data.icon }}.png" alt="{{ weather_data.desc }}" style="width: 50px; height: 50px;">
+
+{% endif %}
+
+

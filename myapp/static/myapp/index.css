@@ -1,0 +1,80 @@
+
+
+/* Reset default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+/* Style the form container */
+form {
+    text-align: center;
+    margin: 120px auto;
+    max-width: 500px;
+}
+
+/* Style the form input fields and button */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    margin: 30px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the comparison container */
+.comparison_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Style the individual city containers */
+.city-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 45%; /* Adjust the width as needed */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the city name */
+.city-container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the temperature */
+.city-container h2 {
+    font-size: 36px;
+    color: #007BFF; /* Blue color for temperature */
+}
+
+/* Style the weather description */
+.city-container p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Style the weather icon */
+.city-container img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
