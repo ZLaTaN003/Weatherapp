@@ -9,7 +9,7 @@ import datetime
 def index(request):
     cw2 = None
 
-    api_key = "17adc22cb3b2c59aa55f7204ed2d0122"
+    api_key = ""
     current_weather = "https://api.openweathermap.org/data/2.5/weather?q={}&appid={}"
     
 
